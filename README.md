@@ -36,6 +36,7 @@ var scale = require('gl-mat3/scale')
   - [mat3.invert()](#mat3invertoutmat3amat3)
   - [mat3.multiply()](#mat3multiplyoutmat3amat3bmat3)
   - [mat3.normalFromMat4()](#mat3normalfrommat4outmat3amat4)
+  - [mat3.projection()](#mat3projectionoutmat3fwidthfheight)
   - [mat3.rotate()](#mat3rotateoutmat3amat3radnumber)
   - [mat3.scale()](#mat3scaleoutmat3amat3vvec2)
   - [mat3.str()](#mat3strmatmat3)
@@ -93,6 +94,10 @@ var scale = require('gl-mat3/scale')
 ## mat3.normalFromMat4(out:mat3, a:mat4)
 
   Calculates a 3x3 normal matrix (transpose inverse) from the 4x4 matrix
+
+## mat3.projection(out:mat3, f:width, f:height)
+
+  Calculates a 2D projection matrix with the given bounds
 
 ## mat3.rotate(out:mat3, a:mat3, rad:Number)
 
