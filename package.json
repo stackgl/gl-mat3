@@ -1,6 +1,6 @@
 {
   "name": "gl-mat3",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "gl-matrix's mat3, split into smaller pieces",
   "main": "index.js",
   "license": {
